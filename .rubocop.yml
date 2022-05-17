@@ -4,7 +4,7 @@ require:
 
 AllCops:
   Exclude:
-    - "blog/bin/bundle"
+    - "spotify_blog/bin/bundle"
   NewCops: enable
 
 Rails:
