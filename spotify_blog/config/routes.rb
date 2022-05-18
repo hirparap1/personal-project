@@ -3,9 +3,5 @@
 Rails.application.routes.draw do
   root "songs#index"
 
-  get "/songs", to: "songs#index"
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-
-  # Defines the root path route ("/")
-  # root "articles#index"
+  resources :songs
 end
